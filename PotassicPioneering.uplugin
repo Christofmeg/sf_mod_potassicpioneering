@@ -2,16 +2,24 @@
 	"FileVersion": 3,
 	"Version": 1,
 	"VersionName": "1.0.0",
+	"SemVersion": "1.1.0",
 	"FriendlyName": "PotassicPioneering",
 	"Description": "Potassium is the key to everything!",
 	"Category": "Modding",
 	"CreatedBy": "Christofmeg",
-	"CreatedByURL": "",
-	"DocsURL": "",
+	"CreatedByURL": "https://github.com/Christofmeg/sf_mod_potassicpioneering",
+	"DocsURL": "https://docs.ficsit.app",
 	"MarketplaceURL": "",
 	"SupportURL": "",
 	"CanContainContent": true,
-	"IsBetaVersion": true,
+	"IsBetaVersion": false,
 	"IsExperimentalVersion": false,
-	"Installed": false
+	"Installed": false,
+	"Plugins": [
+	{
+		"Name": "SML",
+		"Enabled": true,
+		"SemVersion": "^3.0.0"
+	}
+	]
 }
